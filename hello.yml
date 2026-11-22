@@ -1,0 +1,7 @@
+---
+- name: My First Ansible Playbook
+  hosts: localhost
+  tasks:
+    - name: Display welcome message
+      debug:
+        msg: "Hello! Welcome to Ansible."
